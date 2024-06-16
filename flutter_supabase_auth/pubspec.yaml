@@ -1,0 +1,105 @@
+name: flutter_supabase_auth
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # App Modules
+  core:
+    path: libs/core
+  authentication:
+    path: libs/modules/authentication
+
+  get_it: ^7.6.7
+  get: ^4.6.6
+  supabase_flutter: ^2.5.5
+  get_storage: ^2.1.1
+  stacked_themes: ^0.3.12
+  stacked: ^3.4.2
+  onesignal_flutter: ^5.2.0
+  file_picker: ^8.0.3
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Gl
+      fonts:
+        - asset: assets/fonts/Glint Black.otf
+
+    - family: Beautiful
+      fonts:
+        - asset: assets/fonts/BeautifulPeoplePersonalUse-dE0g.ttf
+
+    - family: Combo
+      fonts:
+        - asset: assets/fonts/Combo-Regular.ttf
+
+    - family: Fuggles
+      fonts:
+        - asset: assets/fonts/Fuggles-Regular.ttf
+
+    - family: Bangers
+      fonts:
+        - asset: assets/fonts/Bangers-Regular.ttf
+
+    - family: Kablammo
+      fonts:
+        - asset: assets/fonts/Kablammo-Regular.ttf
+
+    - family: ComforterBrush
+      fonts:
+        - asset: assets/fonts/ComforterBrush-Regular.ttf
+
+    - family: Festive
+      fonts:
+        - asset: assets/fonts/Festive-Regular.ttf
+
+    - family: Devonshire
+      fonts:
+        - asset: assets/fonts/Devonshire-Regular.ttf
+
+    - family: RugeBoogie
+      fonts:
+        - asset: assets/fonts/RugeBoogie-Regular.ttf
+
+    - family: SassyFrass
+      fonts:
+        - asset: assets/fonts/SassyFrass-Regular.ttf
+
+    - family: Mono
+      fonts:
+        - asset: assets/fonts/SpaceMono-Bold.ttf
+        - asset: assets/fonts/SpaceMono-Italic.ttf
+        - asset: assets/fonts/SpaceMono-Regular.ttf
+          style: italic
+    
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
